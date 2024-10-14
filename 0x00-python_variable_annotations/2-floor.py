@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-import math
 """function floor which takes a float n as argument and
    returns the floor of the float.
 """
 
+import math
+
 
 def floor(n: float) -> int:
     """
-    Returns the float of n
+    Returns the floor of n
     """
     return math.floor(n)
