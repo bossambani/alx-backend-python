@@ -8,6 +8,12 @@ sum as a float.
 
 
 def sum_list(input_list: List[float]) -> float:
+    """
+    function sum_list:
+        args: List[float]
+
+        Returns: float
+    """
     initial: float = 0
     for value in input_list:
         initial = initial + value
