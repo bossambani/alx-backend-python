@@ -9,7 +9,7 @@ annotated as a float.
 from typing import Tuple, Union, List
 
 
-def to_kv(k: str, v: List[Union[int, float]]) -> Tuple[str, Union[int, float]]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Takes a string `k` and a list `v` of integers or floats,
     and returns a tuple with the string and the square of the sum of `v`.
