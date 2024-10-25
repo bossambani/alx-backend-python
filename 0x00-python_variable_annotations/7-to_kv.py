@@ -13,13 +13,12 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Takes a string `k` and a list `v` of integers or floats,
     and returns a tuple with the string and the square of the sum of `v`.
-    
     Args:
         k (str): A string key.
         v (List[Union[int, float]]): A list of integers or floats.
 
     Returns:
-        Tuple[str, float]: A tuple containing the string `k` and 
+        Tuple[str, float]: A tuple containing the string `k` and
         the square of the sum of elements in `v`.
     """
     square = v**2
